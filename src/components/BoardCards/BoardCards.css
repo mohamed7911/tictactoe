@@ -1,0 +1,55 @@
+.board-cards .x{
+    transform: scale(3);
+    stroke-width: 3;
+    stroke: var(--color-blue-dark)
+}
+.board-cards .o{
+    transform: scale(3);
+    stroke-width: 3;
+    stroke: var(--color-yellow-dark)
+}
+
+.active-x{
+    transform: scale(3);
+    stroke-width: 3;
+    stroke: var(--color-bg-dark);
+}
+
+.active-o{
+    transform: scale(3);
+    stroke-width: 3;
+    stroke: var(--color-bg-dark);
+}
+
+:root{
+    --color-bg-dark: #192a33; 
+    --color-bg-light: #1f3640; 
+    --color-gray: #a8bec9;
+    --color-gray-dark: #7a8991;
+    --color-yellow: #f2b238;
+    --color-yellow-dark: #cd8d16;
+    --color-blue: #30c4be;
+    --color-blue-dark:#128c89;  
+}
+
+.shadow-blue{
+    background-color: var(--color-blue)!important;
+    box-shadow: 0 8px 0 var(--color-blue-dark);
+}
+.shadow-yellow{
+    background-color: var(--color-yellow)!important;
+    box-shadow: 0 8px 0 var(--color-yellow-dark);
+}
+
+
+.shadow-gray{
+    box-shadow: 0 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.s{
+    box-shadow: 0 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.no{
+    pointer-events: none;
+}

@@ -1,0 +1,62 @@
+:root{
+    --color-bg-dark: #192a33; 
+    --color-bg-light: #1f3640; 
+    --color-gray: #a8bec9;
+    --color-gray-dark: #7a8991;
+    --color-yellow: #f2b238;
+    --color-yellow-dark: #cd8d16;
+    --color-blue: #30c4be;
+    --color-blue-dark:#128c89;  
+}
+
+.pop{
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 100vh;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.win .x{
+    transform: scale(2);
+    stroke-width: 3;
+    stroke: var(--color-blue-dark);
+    margin-inline: 10px;
+}
+.win .o{
+    transform: scale(2);
+    stroke-width: 3;
+    stroke: var(--color-yellow-dark);
+    margin-inline: 10px;
+}
+
+.win{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-bg-light);
+    width: 100vw;
+    padding: 20px;
+    gap: 20px;
+}
+
+.win .btn{
+    margin-inline: 10px;
+}
+
+.restart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-bg-light);
+    width: 100vw;
+    padding: 30px;
+}
+
+.restart .btn{
+    margin: 15px;
+}
